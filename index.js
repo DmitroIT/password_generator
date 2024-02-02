@@ -5,8 +5,10 @@ let
     lengthItem = document.getElementById('length'),
     passwordField = document.getElementById('output'),
     generateBtn = document.getElementById('generate'),
-    copyBtn = document.getElementById('copy'),
     boxGenerator = document.getElementById('box-generator'),
+
+    // TODO
+    copyBtn = document.getElementById('copy'),
 
     charSymbols = '(&^)!@#$%^&*/',
     charNumbers = '1234567890',

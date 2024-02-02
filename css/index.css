@@ -1,0 +1,96 @@
+body {
+    background: #020b30;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+}
+
+.box-generator {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* max-width: 600px; */
+    background-color: rgb(195, 210, 223);
+    text-align: center;
+
+    border-radius: 5px;
+    padding: 15px;
+}
+
+/* .box-button * + * {
+    margin-top: 10px;
+} */
+
+.grid {
+    display: grid;
+}
+
+.grid-box-checkbox {
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    gap: 20px;
+}
+
+.input-control {
+    border: 1px solid #020b30;
+    padding: 10px;
+}
+
+.output-box {
+    margin-top: 20px;
+    height: 40px;
+    background: #ffffff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.output {
+    width: 100%;
+    padding: 10px;
+    border: 3px solid rgb(255, 255, 255);
+
+    
+}
+
+.output:focus {
+    border: 3px solid rgb(119, 255, 0);
+    
+}
+
+.grid-box-btn {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    margin: 20px 0 0 0;
+}
+
+.grid-box-btn .btn {
+    background-color: #020b30;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.btn {
+    width: 100px;
+}
+
+
+input[type='number'] {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+}
+
+input[name='letters'] {
+    user-select: none;
+}
+

@@ -17,7 +17,6 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 
-    /* max-width: 600px; */
     background-color: rgb(195, 210, 223);
     text-align: center;
 
@@ -25,9 +24,6 @@ body {
     padding: 15px;
 }
 
-/* .box-button * + * {
-    margin-top: 10px;
-} */
 
 .grid {
     display: grid;

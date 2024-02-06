@@ -10,6 +10,9 @@ let
     // TODO
     copyBtn = document.getElementById('copy'),
 
+
+
+    
     charSymbols = '(&^)!@#$%^&*/',
     charNumbers = '1234567890',
     charLetters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
